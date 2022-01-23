@@ -198,9 +198,9 @@ function esPositivo(numero) {
      return false;
    }
    if (numero < 0) {
-     return 'Es Negativo';
+     return 'Es negativo';
    }
-   if (entero > 0) {
+   if (numero > 0) {
      return 'Es positivo';
    }
 }
@@ -213,7 +213,6 @@ return str + '!';
 
 
 }
-
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
@@ -271,24 +270,14 @@ function esVocal(letra){
   if (letra.length > 1){
     return 'Dato incorrecto';
   }
- if (letra === 'a' ){
-return 'Es vocal';
+ if (letra === 'a' || letra === 'e'|| letra === 'i' || letra === 'o' || letra === 'u') {
+  
+  return 'Es vocal' ;
 }
- else if (letra === 'e'){
- return 'Es vocal';
+return 'Dato incorrecto'
+}
 
-}
-else if (letra === 'i' ){
-  return 'Es vocal';
-}
-else if (letra === '0' ){
-  return 'Es vocal';
-}
-else if (letra === 'u' ){
-  return 'Es vocal';
-}
-  return 'Dato incorrecto' ;
- }
+
  
   
   
