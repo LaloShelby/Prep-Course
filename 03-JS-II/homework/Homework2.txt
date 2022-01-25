@@ -1,0 +1,2 @@
+For 
+Es un bucle que sirve para revisar una continuidad de numeros entre otros si cumplen una condion o no si complen retornaran un valor positivo y si es lo contrario retornanran un valor falso
