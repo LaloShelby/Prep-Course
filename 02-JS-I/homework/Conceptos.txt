@@ -1,0 +1,22 @@
+Variables
+En programacion variables es una forma de almacenar valores. Estos valores puedes string, texto, numeros
+Las variables tienen nombres a los cuales se les asigna un valores.
+
+Strings
+Es un tipo de dato, el cual solo son bloques de texto y para escribir,
+un string solo se escribe entre comillas "Ejemplo"
+
+Funciones (argumentos, return)
+Funciones
+Es unn bloque de codigo que realizan alguna operacion.
+Argumentos: Son datos que se introducen o se modifican en una funcion.
+Return: Para acceder a algo de la funcion la unica opcion es devolverlo,
+        ya que console.log no tiene el alcance para acceder a la funcion
+
+Declaraciones (if)
+Sirve para hacer alguna funcion en base si se cumplen las condiciones
+
+Valores booleanos (true false)
+Valores que solo se maneja en true cuando una operacion y o funcion es verdadera
+y false cuando una operacion y o funcion es falsa.
+tambien se maneja en 1 y 0. 1 es verdadero 0 es falso.

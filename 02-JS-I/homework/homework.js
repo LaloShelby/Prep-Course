@@ -1,9 +1,9 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = `hola,como estas`;
+const nuevaString = "Hola hermoso";
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = a=6;
+const nuevoNum = a = 5;
 
 // Crea una variable booleana:
 const nuevoBool = false;
@@ -42,8 +42,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var diferencia = x - y;
-  return diferencia;
+  return x - y;
   
 }
 
@@ -87,7 +86,7 @@ function tienenMismaLongitud(str1, str2) {
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
-  // De lo contrario, devuelve "false"
+  // De lo contrario, devuelve "false"fuj
   // Tu código:
   if (num < 90) {
     return true;
@@ -127,7 +126,7 @@ return true;
   return false;
 
    
-  return true;
+
 }
 
 function esImpar(num) {

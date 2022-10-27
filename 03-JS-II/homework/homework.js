@@ -9,8 +9,9 @@ function obtenerMayor(x, y) {
 }
 
 function mayoriaDeEdad(edad) {
-  //Determinar si la persona según su edad puede ingresar a un evento.
+  //Determinar si la persona según su edad puede ingresar a un evento....
   //Si tiene 18 años ó más, devolver --> "Allowed"
+  
   //Si es menor, devolver --> "Not allowed"
   if (edad < 18 ){ return "Not allowed";} else if (edad => 18){ return "Allowed";}
 }
@@ -162,11 +163,12 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var a = numero
+  var b = numero
   var i = 0
   do { i = i+1; a = a + 5}
   while (i < 8)
-  return a;
+  return b;
+
 }
 
 
