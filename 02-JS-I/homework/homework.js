@@ -12,6 +12,7 @@ const nuevoBool = false;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
+//SOLUCION
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
