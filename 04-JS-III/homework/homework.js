@@ -238,13 +238,14 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   // si suma === i break;
+  //
   array = [];
   suma = numero
   for ( i=0; i<10; i++){
     suma=suma+2; if (suma === i) break;
     else { array.push(suma);
   }}
-    
+
 
    if (i<10){ return "Se interrumpió la ejecución"}
     else{ return array;
